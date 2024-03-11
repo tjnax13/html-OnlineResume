@@ -1,0 +1,14 @@
+.hobby {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+}
+
+ul {
+    list-style: none;
+}
+
+div .project {
+    float: left;
+    margin-right: 10px;
+}
