@@ -8,6 +8,46 @@ ul {
     list-style: none;
 }
 
+body {
+    background-color: #00A9FF;
+}
+
+.background {
+    background-color: #89CFF3;
+}
+
+.resume {
+    background-color: #A0E9FF;
+}
+
+.project {
+    background-color: #CDF5FD;
+}
+
+#hanging-icons {
+    background-color: #89CFF3;
+}
+
+.footer {
+    background-color: #A0E9FF
+}
+
+h1 {
+    font-family: serif;
+}
+
+h2 {
+    font-family: serif;
+}
+
+h3 {
+    font-family: serif;
+}
+
+p {
+    font-family: sans-serif;
+}
+
 div .project {
     float: left;
     margin-right: 10px;
