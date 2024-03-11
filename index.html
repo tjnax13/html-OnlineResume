@@ -8,11 +8,32 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./style.css">
 </head>
-<body>
+<body id="body">
+
+<!--Header-->
+
+<header class="p-3 text-bg-dark" >
+  <div class="container" >
+    <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+      <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+        <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+      </a>
+
+      <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+        <li><a href="#body" class="nav-link px-2 text-secondary">Home</a></li>
+        <li><a href="#background" class="nav-link px-2 text-white">Background</a></li>
+        <li><a href="#resume" class="nav-link px-2 text-white">Resume</a></li>
+        <li><a href="#project" class="nav-link px-2 text-white">Projects</a></li>
+        <li><a href="#hanging-icons" class="nav-link px-2 text-white">Hobbies</a></li>
+      </ul>
+
+    </div>
+  </div>
+</header>
 
 <!-- Hero/Brief Intro and Background about you -->
 
-<div class="background container col-xxl-12 px-4 py-5">
+<div class="container col-xxl-12 px-4 py-5" id="background">
     <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
       <div class="col-10 col-sm-8 col-lg-6">
         <img src="./images/IMG_8376 2x2.JPG" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="300" height="300" loading="lazy">
@@ -28,7 +49,7 @@
 
 <!-- Resume Page with Education, Work Experience, Skills and Relevant Information -->
 
-<div class="resume container mt-3">
+<div class="container mt-3" id="resume">
   <div class="row">
   <div class="container col-xl-6 col-sm-12">
 
@@ -74,7 +95,7 @@
   </div>
 <!-- Projects -->
 
-<div class="container mt-3 project">
+<div class="container mt-3" id="project">
   <div class="row">
     <h3>Projects</h3>
     <div class="container col-xl-6 col-sm-12">
@@ -137,7 +158,7 @@
 
 <!-- Contact section -->
 
-<div class="container footer">
+<div class="container" id="footer">
   <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
     <div class="col-md-4 d-flex align-items-center">
       <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
@@ -159,3 +180,6 @@
     
 </body>
 </html>
+
+
+
