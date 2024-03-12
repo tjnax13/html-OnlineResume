@@ -33,19 +33,25 @@ body {
 }
 
 h1 {
-    font-family: serif;
+    font-family: "Anton", sans-serif;
 }
 
 h2 {
-    font-family: serif;
+    font-family: "Anton", sans-serif;
+    padding: 10px;
 }
 
 h3 {
-    font-family: serif;
+    font-family: "Anton", sans-serif;
 }
 
 p {
-    font-family: sans-serif;
+    font-family: "Prompt", sans-serif;
+}
+
+#skills {
+    font-family: "Prompt", sans-serif;
+    font-size: 25px;
 }
 
 div .project {
